@@ -3,11 +3,13 @@ import { SignUp } from "@clerk/nextjs";
 
 export default function SignUpFunc() {
   return(
-    <>
+    <html>
+      <body>
     <div>
     <SignUp></SignUp>
     </div>
-    </>
+    </body>
+    </html>
   )
 }
 

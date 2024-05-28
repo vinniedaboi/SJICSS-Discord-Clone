@@ -5,11 +5,13 @@ import { SignIn } from "@clerk/nextjs";
 
 export default function SignInFunc() {
   return(
-    <>
-    <div>
-    <SignIn></SignIn>
-    </div>
-    </>
+    <html>
+      <body>
+      <div>
+      <SignIn></SignIn>
+      </div>
+    </body>
+    </html>
   )
 }
 

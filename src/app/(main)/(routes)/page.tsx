@@ -8,7 +8,8 @@ import {UserButton} from "@clerk/nextjs"
 
 export default function Home() {
   return (
-    <>
+    <html>
+      <body>
     <div>
       <p className="font-sans text-xl text-amber-800 overline">SJICSS Discord Main Page :)</p>
       <Button>Click me</Button>
@@ -18,6 +19,7 @@ export default function Home() {
           afterSignOutUrl='/'
           />
     </div>
-    </>
+    </body>
+    </html>
   )
 }
